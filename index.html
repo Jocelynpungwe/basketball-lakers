@@ -1,0 +1,58 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+    
+        <div id="timer">
+         <h2 id="TimerCount">0:00</h2>
+         </div>
+         
+         <div id="backBoard"> 
+             
+             <div id="homeSide"> 
+                 <h2 class="tittle">HOME</h2>
+                 <div class="scoreBoard">
+                  <h2 id="homeScore">0</h2>
+                  <button onclick="add1home()">+1</button>
+                  <button onclick="add2home()">+2</button>
+                  <button onclick="add3home()">+3</button>
+                 </div>
+                 <h3>FOULS</h3>
+                 <div class="foulBoard">
+                  <h3 id="foulHome" class="foulsPeriod">0</h3>
+                  <button onclick="foulHome()">+1</button>
+                 </div>
+             </div>
+             <div>
+                 <img src ="lakers.jfif"/>
+                 <h2 class="tittle">PERIOD</h2>
+                 <div>
+                     <h2 id="period" class="foulsPeriod">0</h2>
+                     <button onclick="period()">+1</button>
+                 
+                 </div>
+             </div>
+             <div id="awaySide">
+                 <h2 class="tittle">AWAY</h2>
+                 <div class="scoreBoard">
+                 <h2 id="awayScore">0</h2>
+                 <button onclick="add1away()">+1</button>
+                 <button onclick="add2away()">+2</button>
+                 <button onclick="add3away()">+3</button>
+                 </div>
+                 <h3>FOULS</h3>
+                 <div class="foulBoard">
+                  <h3 id="foulAway" class="foulsPeriod">0</h3>
+                  <button onclick="foulAway()">+1</button>
+                 </div>
+            
+              </div>  
+         </div> 
+          <button onclick="newGame()">New Game</button> 
+           
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

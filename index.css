@@ -1,0 +1,56 @@
+@font-face{
+
+ src: url("ErbosDraco1StOpenNbpRegular-l5wX.ttf");
+ font-family: ErbosDraco1StOpenNbpRegular-l5wX;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: ErbosDraco1StOpenNbpRegular-l5wX;
+    color: yellow;
+}
+
+img{
+    width:100px;
+}
+#backBoard{
+   display: flex;
+
+}
+.container{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding-bottom: 20px;
+}
+#timer{
+    border: 5px solid white;
+    padding: 5px 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;   
+}
+#homeSide{
+    margin-right: 50px;
+}
+#awaySide{
+    margin-left:50px;
+}
+.tittle{
+    font-size: 30px;
+    color: white;
+}
+.scoreBoard{
+    font-size: 30px;
+    border: 1px solid white;
+    padding-left:15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.foulsPeriod{
+    border: 5px solid white;
+    padding: 10px
+}
